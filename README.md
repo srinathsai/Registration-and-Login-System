@@ -14,4 +14,6 @@ Thymeleaf is a Java template engine on the client side for processing and creati
   - Therefore, Spring copies the model data into request attributes that the Thymeleaf template can work with. <br />
 
 ### Spring validation:-
-After including Spring validation starter dependecy in pom.xml file . Now, it must be used to validate the information when user is entering the details at frontend.
+After including Spring validation starter dependecy in pom.xml file . Now, it must be used to validate the information when user is entering the details at frontend. For that, I have used DTO objects to reduce remote calls. In DTO objects for each field I have used @NotNull and @Email annotations and @Valid annotation in handler method. So these annotations with the help of spring validation dependency ensures the user logged information are not null and valid email. It also ensures that every logged people have unique emails.
+
+### Spring Security :-
