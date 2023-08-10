@@ -5,3 +5,10 @@ For my previous Student Maanagement system, I had implemented backend db crud op
 
 
 ## Introduction of Spring concepts used :-
+### Thymeleaf:-
+Thymeleaf is a Java template engine on the client side for processing and creating HTML, XML, JavaScript, CSS, and text. The Thymeleaf engine will search for templates in the resources folder, based on the written Thymeleaf keywords in the HTML it relates the objects and their working and gives results in HTML. In other words, it's working can be described by the following steps:-
+  - Thymeleaf follows a De-Coupled Architecture .<br />
+  - In the same way, it is unaware of Spring’s abstraction of the model and thus cannot handle the data that the controller places in the Model.<br />
+  - When Spring-Boot’s autoconfiguration detects Thymeleaf in the classpath, it creates beans supporting Thymeleaf view for Spring MVC.<br />
+  - It can work with request attributes of Servlet.<br />
+  - Therefore, Spring copies the model data into request attributes that the Thymeleaf template can work with. <br />
