@@ -23,3 +23,15 @@ Spring Security is a framework that allows a programmer to use JEE components to
   - Authorization (Spring security provides role based security like for specific roles we can restrict acess).
   - Password Storage (Spring security can store password in encrpted form and is usually done by Bcrypt algorithm).
   - Servlet Filters
+
+## Tools required :-
+  - MYSQL Database
+  - Intellj Idea.
+
+## Steps of Execution :-
+  - First, download the code and open it in IntelliJIdea or any Java IDE.(Note you no need to add any configurations for Spring or you no need to adjust any dependency version because here by using Spring initializer necessary dependencies with recent versions have been added and it is reflected in Pom.xml file.)< br />
+  - In application.properties file change Spring.datasource url to your MySQL url which at the time of installing MySQL you would get this url.
+  - Change username and password in application.properties file of yours that you have set while installing MySQL .
+  - Change hibernate dialect to MySQL dialect.(Note just change urls that are present on right hand side of equal to sign in Applications.properties file).
+  - Now for playing with this system you need to type url localhost:8080/login in web browser . Then you can have your registration and login system by simply clicking on respective buttons.
+    
