@@ -17,3 +17,9 @@ Thymeleaf is a Java template engine on the client side for processing and creati
 After including Spring validation starter dependecy in pom.xml file . Now, it must be used to validate the information when user is entering the details at frontend. For that, I have used DTO objects to reduce remote calls. In DTO objects for each field I have used @NotNull and @Email annotations and @Valid annotation in handler method. So these annotations with the help of spring validation dependency ensures the user logged information are not null and valid email. It also ensures that every logged people have unique emails.
 
 ### Spring Security :-
+Spring Security is a framework that allows a programmer to use JEE components to set security limitations on Spring-framework-based Web applications. In a nutshell, it’s a library that can be utilized and customized to suit the demands of the programmer. Because it is a part of the same Spring family as Spring Web MVC, it works well together. Its major function is to manage authentication and authorization at both the Web request and method invocation levels. Perhaps. The most significant benefit of this framework is that it is both strong and very adaptable. Although it adheres to Spring’s set up conventions, programmers may select between default provisions and modify it to their specific requirements. Spring security works on the following four core concepts <br />
+
+  - Authentication (Spring security provides a default username and password which we will change according to our case).
+  - Authorization (Spring security provides role based security like for specific roles we can restrict acess).
+  - Password Storage (Spring security can store password in encrpted form and is usually done by Bcrypt algorithm).
+  - Servlet Filters
